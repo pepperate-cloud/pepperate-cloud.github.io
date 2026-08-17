@@ -14,7 +14,11 @@ h1 {
     font-size: 4rem;
 }
 
-#about {
+p {
+    font-size: 1.3rem;
+}
+
+#about, #experience, #links {
     opacity: 0;
     animation: fadeIn 1.5s ease-in forwards;
 }
@@ -53,4 +57,28 @@ h1 {
 
 .exp-column li {
     margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+#links {
+    margin-top: 80px
+}
+
+.links-list {
+    list-style: none;
+    padding: 0;
+}
+
+.links-list li {
+    margin-bottom: 15px
+}
+
+.links-list a {
+    color: #6ec6ff;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.links-list a:hover {
+    text-decoration: underline;
 }
